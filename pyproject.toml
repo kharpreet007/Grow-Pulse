@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "groww-pulse"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "click",
+    "pyyaml",
+    "google-play-scraper",
+    "sentence-transformers",
+    "umap-learn",
+    "hdbscan",
+    "numpy",
+    "openai",
+    "emoji",
+    "langdetect"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio", "ruff"]
+
+[tool.setuptools.packages.find]
+include = ["groww_pulse*", "mcp_servers*"]

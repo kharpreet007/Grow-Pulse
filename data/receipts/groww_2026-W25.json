@@ -1,0 +1,17 @@
+{
+  "iso_week": "2026-W25",
+  "timestamp": "2026-06-19T15:13:59.789019",
+  "status": "success",
+  "error": null,
+  "review_window": 0,
+  "reviews_ingested": 0,
+  "clusters_found": 0,
+  "themes_generated": 5,
+  "delivery": {
+    "docs_status": "appended",
+    "gmail_status": "drafted",
+    "docs_id": "1-K-aUsUy0Q-aNBsNTuSa1brBjxbjFBIz1OgEszavPhg",
+    "gmail_draft_id": "r445191449729191271",
+    "gmail_message_id": null
+  }
+}
